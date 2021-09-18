@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Hind&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="stone">
+            <img id="stone" src="stone.svg" alt="Stone" >
+            <h2>stone</h2>
+
+        </div>
+
+
+        <div class="paper">
+            <img id="paper" src="paper.svg" alt="Paper" >
+            <h2>paper</h2>
+            
+        </div>
+        
+        
+        <div class="scissor">
+            <img id="scissor" src="scissor.svg" alt="Scissor" onclick="declareresult()">
+            <h2>Scissor</h2>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- 2 results -->
+    <div class="result">
+
+        <div class="comp_result">
+            <h3 id="computer">Computer: </h3>
+            <h3 id="computer_value"></h3>
+            <h3 id="comp_res">0</h3>
+        </div>
+        
+        
+        <div class="user_result">
+            <h3 id="users">Users:</h3> 
+            <h3 id="users_value"></h3>
+            <h3 id="user_res">0</h3>
+            
+        </div>
+
+    </div>
+
+    <!-- 3 -->
+    <div id="winnnerresult">
+        
+    </div>
+
+    <!-- declareresults -->
+    <div id="declare">
+
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
